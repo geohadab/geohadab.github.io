@@ -1,0 +1,4 @@
+Sitemap: https://geohadab.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: geohadab.github.io
