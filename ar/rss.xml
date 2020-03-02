@@ -1,2 +1,635 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>جيوفيزياء</title><link>https://geohadab.github.io/</link><description>مدونة شخصية</description><atom:link href="https://geohadab.github.io/ar/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>ar</language><copyright>Contents © 2020 &lt;a href="mailto:Alhadab@hotmail.co.uk"&gt;عبدالله الحدب&lt;/a&gt; </copyright><lastBuildDate>Wed, 26 Feb 2020 05:27:50 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs></channel></rss>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>الجيوفيزيائي</title><link>https://geohadab.github.io/</link><description>مدونة شخصية</description><atom:link href="https://geohadab.github.io/ar/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>ar</language><copyright>Contents © 2020 &lt;a href="mailto:Alhadab@hotmail.co.uk"&gt;عبدالله الحدب&lt;/a&gt; </copyright><lastBuildDate>Sun, 01 Mar 2020 07:54:33 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>notebook1</title><link>https://geohadab.github.io/ar/posts/notebook1/</link><dc:creator>عبدالله الحدب</dc:creator><description>&lt;div&gt;&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="Introduction"&gt;Introduction&lt;a class="anchor-link" href="https://geohadab.github.io/ar/posts/notebook1/#Introduction"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;h2 id="heading-1"&gt;heading 1&lt;a class="anchor-link" href="https://geohadab.github.io/ar/posts/notebook1/#heading-1"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;h3 id="heading-2"&gt;heading 2&lt;a class="anchor-link" href="https://geohadab.github.io/ar/posts/notebook1/#heading-2"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;h2 id="heading-2"&gt;heading 2&lt;a class="anchor-link" href="https://geohadab.github.io/ar/posts/notebook1/#heading-2"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;h2 id="heading-3"&gt;heading 3&lt;a class="anchor-link" href="https://geohadab.github.io/ar/posts/notebook1/#heading-3"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [2]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;numpy&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;np&lt;/span&gt; 
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;plt&lt;/span&gt; 
+
+&lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;linspace&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pi&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;plt&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;plot&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sin&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+
+
+&lt;div class="output_area"&gt;
+
+    &lt;div class="prompt output_prompt"&gt;Out[2]:&lt;/div&gt;
+
+
+
+
+&lt;div class="output_text output_subarea output_execute_result"&gt;
+&lt;pre&gt;[&amp;lt;matplotlib.lines.Line2D at 0x7f76f8755978&amp;gt;]&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div class="output_area"&gt;
+
+    &lt;div class="prompt"&gt;&lt;/div&gt;
+
+
+
+&lt;div class="output_svg output_subarea "&gt;
+&lt;?xml version="1.0" encoding="utf-8" standalone="no"?&gt;
+
+&lt;!-- Created with matplotlib (https://matplotlib.org/) --&gt;
+&lt;svg height="252.018125pt" version="1.1" viewbox="0 0 390.345312 252.018125" width="390.345312pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;
+ &lt;defs&gt;
+  &lt;style type="text/css"&gt;
+*{stroke-linecap:butt;stroke-linejoin:round;}
+  &lt;/style&gt;
+ &lt;/defs&gt;
+ &lt;g id="figure_1"&gt;
+  &lt;g id="patch_1"&gt;
+   &lt;path d="M 0 252.018125 
+L 390.345312 252.018125 
+L 390.345312 0 
+L 0 0 
+z
+" style="fill:none;"&gt;&lt;/path&gt;
+  &lt;/g&gt;
+  &lt;g id="axes_1"&gt;
+   &lt;g id="patch_2"&gt;
+    &lt;path d="M 44.845313 228.14 
+L 379.645313 228.14 
+L 379.645313 10.7 
+L 44.845313 10.7 
+z
+" style="fill:#ffffff;"&gt;&lt;/path&gt;
+   &lt;/g&gt;
+   &lt;g id="matplotlib.axis_1"&gt;
+    &lt;g id="xtick_1"&gt;
+     &lt;g id="line2d_1"&gt;
+      &lt;defs&gt;
+       &lt;path d="M 0 0 
+L 0 3.5 
+" id="mf7085be2cf" style="stroke:#000000;stroke-width:0.8;"&gt;&lt;/path&gt;
+      &lt;/defs&gt;
+      &lt;g&gt;
+       &lt;use style="stroke:#000000;stroke-width:0.8;" x="60.063494" xlink:href="#mf7085be2cf" y="228.14"&gt;&lt;/use&gt;
+      &lt;/g&gt;
+     &lt;/g&gt;
+     &lt;g id="text_1"&gt;
+      &lt;!-- 0 --&gt;
+      &lt;defs&gt;
+       &lt;path d="M 31.78125 66.40625 
+Q 24.171875 66.40625 20.328125 58.90625 
+Q 16.5 51.421875 16.5 36.375 
+Q 16.5 21.390625 20.328125 13.890625 
+Q 24.171875 6.390625 31.78125 6.390625 
+Q 39.453125 6.390625 43.28125 13.890625 
+Q 47.125 21.390625 47.125 36.375 
+Q 47.125 51.421875 43.28125 58.90625 
+Q 39.453125 66.40625 31.78125 66.40625 
+z
+M 31.78125 74.21875 
+Q 44.046875 74.21875 50.515625 64.515625 
+Q 56.984375 54.828125 56.984375 36.375 
+Q 56.984375 17.96875 50.515625 8.265625 
+Q 44.046875 -1.421875 31.78125 -1.421875 
+Q 19.53125 -1.421875 13.0625 8.265625 
+Q 6.59375 17.96875 6.59375 36.375 
+Q 6.59375 54.828125 13.0625 64.515625 
+Q 19.53125 74.21875 31.78125 74.21875 
+z
+" id="DejaVuSans-48"&gt;&lt;/path&gt;
+      &lt;/defs&gt;
+      &lt;g transform="translate(56.882244 242.738437)scale(0.1 -0.1)"&gt;
+       &lt;use xlink:href="#DejaVuSans-48"&gt;&lt;/use&gt;
+      &lt;/g&gt;
+     &lt;/g&gt;
+    &lt;/g&gt;
+    &lt;g id="xtick_2"&gt;
+     &lt;g id="line2d_2"&gt;
+      &lt;g&gt;
+       &lt;use style="stroke:#000000;stroke-width:0.8;" x="108.504472" xlink:href="#mf7085be2cf" y="228.14"&gt;&lt;/use&gt;
+      &lt;/g&gt;
+     &lt;/g&gt;
+     &lt;g id="text_2"&gt;
+      &lt;!-- 1 --&gt;
+      &lt;defs&gt;
+       &lt;path d="M 12.40625 8.296875 
+L 28.515625 8.296875 
+L 28.515625 63.921875 
+L 10.984375 60.40625 
+L 10.984375 69.390625 
+L 28.421875 72.90625 
+L 38.28125 72.90625 
+L 38.28125 8.296875 
+L 54.390625 8.296875 
+L 54.390625 0 
+L 12.40625 0 
+z
+" id="DejaVuSans-49"&gt;&lt;/path&gt;
+      &lt;/defs&gt;
+      &lt;g transform="translate(105.323222 242.738437)scale(0.1 -0.1)"&gt;
+       &lt;use xlink:href="#DejaVuSans-49"&gt;&lt;/use&gt;
+      &lt;/g&gt;
+     &lt;/g&gt;
+    &lt;/g&gt;
+    &lt;g id="xtick_3"&gt;
+     &lt;g id="line2d_3"&gt;
+      &lt;g&gt;
+       &lt;use style="stroke:#000000;stroke-width:0.8;" x="156.945449" xlink:href="#mf7085be2cf" y="228.14"&gt;&lt;/use&gt;
+      &lt;/g&gt;
+     &lt;/g&gt;
+     &lt;g id="text_3"&gt;
+      &lt;!-- 2 --&gt;
+      &lt;defs&gt;
+       &lt;path d="M 19.1875 8.296875 
+L 53.609375 8.296875 
+L 53.609375 0 
+L 7.328125 0 
+L 7.328125 8.296875 
+Q 12.9375 14.109375 22.625 23.890625 
+Q 32.328125 33.6875 34.8125 36.53125 
+Q 39.546875 41.84375 41.421875 45.53125 
+Q 43.3125 49.21875 43.3125 52.78125 
+Q 43.3125 58.59375 39.234375 62.25 
+Q 35.15625 65.921875 28.609375 65.921875 
+Q 23.96875 65.921875 18.8125 64.3125 
+Q 13.671875 62.703125 7.8125 59.421875 
+L 7.8125 69.390625 
+Q 13.765625 71.78125 18.9375 73 
+Q 24.125 74.21875 28.421875 74.21875 
+Q 39.75 74.21875 46.484375 68.546875 
+Q 53.21875 62.890625 53.21875 53.421875 
+Q 53.21875 48.921875 51.53125 44.890625 
+Q 49.859375 40.875 45.40625 35.40625 
+Q 44.1875 33.984375 37.640625 27.21875 
+Q 31.109375 20.453125 19.1875 8.296875 
+z
+" id="DejaVuSans-50"&gt;&lt;/path&gt;
+      &lt;/defs&gt;
+      &lt;g transform="translate(153.764199 242.738437)scale(0.1 -0.1)"&gt;
+       &lt;use xlink:href="#DejaVuSans-50"&gt;&lt;/use&gt;
+      &lt;/g&gt;
+     &lt;/g&gt;
+    &lt;/g&gt;
+    &lt;g id="xtick_4"&gt;
+     &lt;g id="line2d_4"&gt;
+      &lt;g&gt;
+       &lt;use style="stroke:#000000;stroke-width:0.8;" x="205.386426" xlink:href="#mf7085be2cf" y="228.14"&gt;&lt;/use&gt;
+      &lt;/g&gt;
+     &lt;/g&gt;
+     &lt;g id="text_4"&gt;
+      &lt;!-- 3 --&gt;
+      &lt;defs&gt;
+       &lt;path d="M 40.578125 39.3125 
+Q 47.65625 37.796875 51.625 33 
+Q 55.609375 28.21875 55.609375 21.1875 
+Q 55.609375 10.40625 48.1875 4.484375 
+Q 40.765625 -1.421875 27.09375 -1.421875 
+Q 22.515625 -1.421875 17.65625 -0.515625 
+Q 12.796875 0.390625 7.625 2.203125 
+L 7.625 11.71875 
+Q 11.71875 9.328125 16.59375 8.109375 
+Q 21.484375 6.890625 26.8125 6.890625 
+Q 36.078125 6.890625 40.9375 10.546875 
+Q 45.796875 14.203125 45.796875 21.1875 
+Q 45.796875 27.640625 41.28125 31.265625 
+Q 36.765625 34.90625 28.71875 34.90625 
+L 20.21875 34.90625 
+L 20.21875 43.015625 
+L 29.109375 43.015625 
+Q 36.375 43.015625 40.234375 45.921875 
+Q 44.09375 48.828125 44.09375 54.296875 
+Q 44.09375 59.90625 40.109375 62.90625 
+Q 36.140625 65.921875 28.71875 65.921875 
+Q 24.65625 65.921875 20.015625 65.03125 
+Q 15.375 64.15625 9.8125 62.3125 
+L 9.8125 71.09375 
+Q 15.4375 72.65625 20.34375 73.4375 
+Q 25.25 74.21875 29.59375 74.21875 
+Q 40.828125 74.21875 47.359375 69.109375 
+Q 53.90625 64.015625 53.90625 55.328125 
+Q 53.90625 49.265625 50.4375 45.09375 
+Q 46.96875 40.921875 40.578125 39.3125 
+z
+" id="DejaVuSans-51"&gt;&lt;/path&gt;
+      &lt;/defs&gt;
+      &lt;g transform="translate(202.205176 242.738437)scale(0.1 -0.1)"&gt;
+       &lt;use xlink:href="#DejaVuSans-51"&gt;&lt;/use&gt;
+      &lt;/g&gt;
+     &lt;/g&gt;
+    &lt;/g&gt;
+    &lt;g id="xtick_5"&gt;
+     &lt;g id="line2d_5"&gt;
+      &lt;g&gt;
+       &lt;use style="stroke:#000000;stroke-width:0.8;" x="253.827403" xlink:href="#mf7085be2cf" y="228.14"&gt;&lt;/use&gt;
+      &lt;/g&gt;
+     &lt;/g&gt;
+     &lt;g id="text_5"&gt;
+      &lt;!-- 4 --&gt;
+      &lt;defs&gt;
+       &lt;path d="M 37.796875 64.3125 
+L 12.890625 25.390625 
+L 37.796875 25.390625 
+z
+M 35.203125 72.90625 
+L 47.609375 72.90625 
+L 47.609375 25.390625 
+L 58.015625 25.390625 
+L 58.015625 17.1875 
+L 47.609375 17.1875 
+L 47.609375 0 
+L 37.796875 0 
+L 37.796875 17.1875 
+L 4.890625 17.1875 
+L 4.890625 26.703125 
+z
+" id="DejaVuSans-52"&gt;&lt;/path&gt;
+      &lt;/defs&gt;
+      &lt;g transform="translate(250.646153 242.738437)scale(0.1 -0.1)"&gt;
+       &lt;use xlink:href="#DejaVuSans-52"&gt;&lt;/use&gt;
+      &lt;/g&gt;
+     &lt;/g&gt;
+    &lt;/g&gt;
+    &lt;g id="xtick_6"&gt;
+     &lt;g id="line2d_6"&gt;
+      &lt;g&gt;
+       &lt;use style="stroke:#000000;stroke-width:0.8;" x="302.26838" xlink:href="#mf7085be2cf" y="228.14"&gt;&lt;/use&gt;
+      &lt;/g&gt;
+     &lt;/g&gt;
+     &lt;g id="text_6"&gt;
+      &lt;!-- 5 --&gt;
+      &lt;defs&gt;
+       &lt;path d="M 10.796875 72.90625 
+L 49.515625 72.90625 
+L 49.515625 64.59375 
+L 19.828125 64.59375 
+L 19.828125 46.734375 
+Q 21.96875 47.46875 24.109375 47.828125 
+Q 26.265625 48.1875 28.421875 48.1875 
+Q 40.625 48.1875 47.75 41.5 
+Q 54.890625 34.8125 54.890625 23.390625 
+Q 54.890625 11.625 47.5625 5.09375 
+Q 40.234375 -1.421875 26.90625 -1.421875 
+Q 22.3125 -1.421875 17.546875 -0.640625 
+Q 12.796875 0.140625 7.71875 1.703125 
+L 7.71875 11.625 
+Q 12.109375 9.234375 16.796875 8.0625 
+Q 21.484375 6.890625 26.703125 6.890625 
+Q 35.15625 6.890625 40.078125 11.328125 
+Q 45.015625 15.765625 45.015625 23.390625 
+Q 45.015625 31 40.078125 35.4375 
+Q 35.15625 39.890625 26.703125 39.890625 
+Q 22.75 39.890625 18.8125 39.015625 
+Q 14.890625 38.140625 10.796875 36.28125 
+z
+" id="DejaVuSans-53"&gt;&lt;/path&gt;
+      &lt;/defs&gt;
+      &lt;g transform="translate(299.08713 242.738437)scale(0.1 -0.1)"&gt;
+       &lt;use xlink:href="#DejaVuSans-53"&gt;&lt;/use&gt;
+      &lt;/g&gt;
+     &lt;/g&gt;
+    &lt;/g&gt;
+    &lt;g id="xtick_7"&gt;
+     &lt;g id="line2d_7"&gt;
+      &lt;g&gt;
+       &lt;use style="stroke:#000000;stroke-width:0.8;" x="350.709358" xlink:href="#mf7085be2cf" y="228.14"&gt;&lt;/use&gt;
+      &lt;/g&gt;
+     &lt;/g&gt;
+     &lt;g id="text_7"&gt;
+      &lt;!-- 6 --&gt;
+      &lt;defs&gt;
+       &lt;path d="M 33.015625 40.375 
+Q 26.375 40.375 22.484375 35.828125 
+Q 18.609375 31.296875 18.609375 23.390625 
+Q 18.609375 15.53125 22.484375 10.953125 
+Q 26.375 6.390625 33.015625 6.390625 
+Q 39.65625 6.390625 43.53125 10.953125 
+Q 47.40625 15.53125 47.40625 23.390625 
+Q 47.40625 31.296875 43.53125 35.828125 
+Q 39.65625 40.375 33.015625 40.375 
+z
+M 52.59375 71.296875 
+L 52.59375 62.3125 
+Q 48.875 64.0625 45.09375 64.984375 
+Q 41.3125 65.921875 37.59375 65.921875 
+Q 27.828125 65.921875 22.671875 59.328125 
+Q 17.53125 52.734375 16.796875 39.40625 
+Q 19.671875 43.65625 24.015625 45.921875 
+Q 28.375 48.1875 33.59375 48.1875 
+Q 44.578125 48.1875 50.953125 41.515625 
+Q 57.328125 34.859375 57.328125 23.390625 
+Q 57.328125 12.15625 50.6875 5.359375 
+Q 44.046875 -1.421875 33.015625 -1.421875 
+Q 20.359375 -1.421875 13.671875 8.265625 
+Q 6.984375 17.96875 6.984375 36.375 
+Q 6.984375 53.65625 15.1875 63.9375 
+Q 23.390625 74.21875 37.203125 74.21875 
+Q 40.921875 74.21875 44.703125 73.484375 
+Q 48.484375 72.75 52.59375 71.296875 
+z
+" id="DejaVuSans-54"&gt;&lt;/path&gt;
+      &lt;/defs&gt;
+      &lt;g transform="translate(347.528108 242.738437)scale(0.1 -0.1)"&gt;
+       &lt;use xlink:href="#DejaVuSans-54"&gt;&lt;/use&gt;
+      &lt;/g&gt;
+     &lt;/g&gt;
+    &lt;/g&gt;
+   &lt;/g&gt;
+   &lt;g id="matplotlib.axis_2"&gt;
+    &lt;g id="ytick_1"&gt;
+     &lt;g id="line2d_8"&gt;
+      &lt;defs&gt;
+       &lt;path d="M 0 0 
+L -3.5 0 
+" id="med8e228f05" style="stroke:#000000;stroke-width:0.8;"&gt;&lt;/path&gt;
+      &lt;/defs&gt;
+      &lt;g&gt;
+       &lt;use style="stroke:#000000;stroke-width:0.8;" x="44.845313" xlink:href="#med8e228f05" y="218.30717"&gt;&lt;/use&gt;
+      &lt;/g&gt;
+     &lt;/g&gt;
+     &lt;g id="text_8"&gt;
+      &lt;!-- −1.00 --&gt;
+      &lt;defs&gt;
+       &lt;path d="M 10.59375 35.5 
+L 73.1875 35.5 
+L 73.1875 27.203125 
+L 10.59375 27.203125 
+z
+" id="DejaVuSans-8722"&gt;&lt;/path&gt;
+       &lt;path d="M 10.6875 12.40625 
+L 21 12.40625 
+L 21 0 
+L 10.6875 0 
+z
+" id="DejaVuSans-46"&gt;&lt;/path&gt;
+      &lt;/defs&gt;
+      &lt;g transform="translate(7.2 222.106389)scale(0.1 -0.1)"&gt;
+       &lt;use xlink:href="#DejaVuSans-8722"&gt;&lt;/use&gt;
+       &lt;use x="83.789062" xlink:href="#DejaVuSans-49"&gt;&lt;/use&gt;
+       &lt;use x="147.412109" xlink:href="#DejaVuSans-46"&gt;&lt;/use&gt;
+       &lt;use x="179.199219" xlink:href="#DejaVuSans-48"&gt;&lt;/use&gt;
+       &lt;use x="242.822266" xlink:href="#DejaVuSans-48"&gt;&lt;/use&gt;
+      &lt;/g&gt;
+     &lt;/g&gt;
+    &lt;/g&gt;
+    &lt;g id="ytick_2"&gt;
+     &lt;g id="line2d_9"&gt;
+      &lt;g&gt;
+       &lt;use style="stroke:#000000;stroke-width:0.8;" x="44.845313" xlink:href="#med8e228f05" y="193.585378"&gt;&lt;/use&gt;
+      &lt;/g&gt;
+     &lt;/g&gt;
+     &lt;g id="text_9"&gt;
+      &lt;!-- −0.75 --&gt;
+      &lt;defs&gt;
+       &lt;path d="M 8.203125 72.90625 
+L 55.078125 72.90625 
+L 55.078125 68.703125 
+L 28.609375 0 
+L 18.3125 0 
+L 43.21875 64.59375 
+L 8.203125 64.59375 
+z
+" id="DejaVuSans-55"&gt;&lt;/path&gt;
+      &lt;/defs&gt;
+      &lt;g transform="translate(7.2 197.384596)scale(0.1 -0.1)"&gt;
+       &lt;use xlink:href="#DejaVuSans-8722"&gt;&lt;/use&gt;
+       &lt;use x="83.789062" xlink:href="#DejaVuSans-48"&gt;&lt;/use&gt;
+       &lt;use x="147.412109" xlink:href="#DejaVuSans-46"&gt;&lt;/use&gt;
+       &lt;use x="179.199219" xlink:href="#DejaVuSans-55"&gt;&lt;/use&gt;
+       &lt;use x="242.822266" xlink:href="#DejaVuSans-53"&gt;&lt;/use&gt;
+      &lt;/g&gt;
+     &lt;/g&gt;
+    &lt;/g&gt;
+    &lt;g id="ytick_3"&gt;
+     &lt;g id="line2d_10"&gt;
+      &lt;g&gt;
+       &lt;use style="stroke:#000000;stroke-width:0.8;" x="44.845313" xlink:href="#med8e228f05" y="168.863585"&gt;&lt;/use&gt;
+      &lt;/g&gt;
+     &lt;/g&gt;
+     &lt;g id="text_10"&gt;
+      &lt;!-- −0.50 --&gt;
+      &lt;g transform="translate(7.2 172.662804)scale(0.1 -0.1)"&gt;
+       &lt;use xlink:href="#DejaVuSans-8722"&gt;&lt;/use&gt;
+       &lt;use x="83.789062" xlink:href="#DejaVuSans-48"&gt;&lt;/use&gt;
+       &lt;use x="147.412109" xlink:href="#DejaVuSans-46"&gt;&lt;/use&gt;
+       &lt;use x="179.199219" xlink:href="#DejaVuSans-53"&gt;&lt;/use&gt;
+       &lt;use x="242.822266" xlink:href="#DejaVuSans-48"&gt;&lt;/use&gt;
+      &lt;/g&gt;
+     &lt;/g&gt;
+    &lt;/g&gt;
+    &lt;g id="ytick_4"&gt;
+     &lt;g id="line2d_11"&gt;
+      &lt;g&gt;
+       &lt;use style="stroke:#000000;stroke-width:0.8;" x="44.845313" xlink:href="#med8e228f05" y="144.141793"&gt;&lt;/use&gt;
+      &lt;/g&gt;
+     &lt;/g&gt;
+     &lt;g id="text_11"&gt;
+      &lt;!-- −0.25 --&gt;
+      &lt;g transform="translate(7.2 147.941011)scale(0.1 -0.1)"&gt;
+       &lt;use xlink:href="#DejaVuSans-8722"&gt;&lt;/use&gt;
+       &lt;use x="83.789062" xlink:href="#DejaVuSans-48"&gt;&lt;/use&gt;
+       &lt;use x="147.412109" xlink:href="#DejaVuSans-46"&gt;&lt;/use&gt;
+       &lt;use x="179.199219" xlink:href="#DejaVuSans-50"&gt;&lt;/use&gt;
+       &lt;use x="242.822266" xlink:href="#DejaVuSans-53"&gt;&lt;/use&gt;
+      &lt;/g&gt;
+     &lt;/g&gt;
+    &lt;/g&gt;
+    &lt;g id="ytick_5"&gt;
+     &lt;g id="line2d_12"&gt;
+      &lt;g&gt;
+       &lt;use style="stroke:#000000;stroke-width:0.8;" x="44.845313" xlink:href="#med8e228f05" y="119.42"&gt;&lt;/use&gt;
+      &lt;/g&gt;
+     &lt;/g&gt;
+     &lt;g id="text_12"&gt;
+      &lt;!-- 0.00 --&gt;
+      &lt;g transform="translate(15.579688 123.219219)scale(0.1 -0.1)"&gt;
+       &lt;use xlink:href="#DejaVuSans-48"&gt;&lt;/use&gt;
+       &lt;use x="63.623047" xlink:href="#DejaVuSans-46"&gt;&lt;/use&gt;
+       &lt;use x="95.410156" xlink:href="#DejaVuSans-48"&gt;&lt;/use&gt;
+       &lt;use x="159.033203" xlink:href="#DejaVuSans-48"&gt;&lt;/use&gt;
+      &lt;/g&gt;
+     &lt;/g&gt;
+    &lt;/g&gt;
+    &lt;g id="ytick_6"&gt;
+     &lt;g id="line2d_13"&gt;
+      &lt;g&gt;
+       &lt;use style="stroke:#000000;stroke-width:0.8;" x="44.845313" xlink:href="#med8e228f05" y="94.698207"&gt;&lt;/use&gt;
+      &lt;/g&gt;
+     &lt;/g&gt;
+     &lt;g id="text_13"&gt;
+      &lt;!-- 0.25 --&gt;
+      &lt;g transform="translate(15.579688 98.497426)scale(0.1 -0.1)"&gt;
+       &lt;use xlink:href="#DejaVuSans-48"&gt;&lt;/use&gt;
+       &lt;use x="63.623047" xlink:href="#DejaVuSans-46"&gt;&lt;/use&gt;
+       &lt;use x="95.410156" xlink:href="#DejaVuSans-50"&gt;&lt;/use&gt;
+       &lt;use x="159.033203" xlink:href="#DejaVuSans-53"&gt;&lt;/use&gt;
+      &lt;/g&gt;
+     &lt;/g&gt;
+    &lt;/g&gt;
+    &lt;g id="ytick_7"&gt;
+     &lt;g id="line2d_14"&gt;
+      &lt;g&gt;
+       &lt;use style="stroke:#000000;stroke-width:0.8;" x="44.845313" xlink:href="#med8e228f05" y="69.976415"&gt;&lt;/use&gt;
+      &lt;/g&gt;
+     &lt;/g&gt;
+     &lt;g id="text_14"&gt;
+      &lt;!-- 0.50 --&gt;
+      &lt;g transform="translate(15.579688 73.775634)scale(0.1 -0.1)"&gt;
+       &lt;use xlink:href="#DejaVuSans-48"&gt;&lt;/use&gt;
+       &lt;use x="63.623047" xlink:href="#DejaVuSans-46"&gt;&lt;/use&gt;
+       &lt;use x="95.410156" xlink:href="#DejaVuSans-53"&gt;&lt;/use&gt;
+       &lt;use x="159.033203" xlink:href="#DejaVuSans-48"&gt;&lt;/use&gt;
+      &lt;/g&gt;
+     &lt;/g&gt;
+    &lt;/g&gt;
+    &lt;g id="ytick_8"&gt;
+     &lt;g id="line2d_15"&gt;
+      &lt;g&gt;
+       &lt;use style="stroke:#000000;stroke-width:0.8;" x="44.845313" xlink:href="#med8e228f05" y="45.254622"&gt;&lt;/use&gt;
+      &lt;/g&gt;
+     &lt;/g&gt;
+     &lt;g id="text_15"&gt;
+      &lt;!-- 0.75 --&gt;
+      &lt;g transform="translate(15.579688 49.053841)scale(0.1 -0.1)"&gt;
+       &lt;use xlink:href="#DejaVuSans-48"&gt;&lt;/use&gt;
+       &lt;use x="63.623047" xlink:href="#DejaVuSans-46"&gt;&lt;/use&gt;
+       &lt;use x="95.410156" xlink:href="#DejaVuSans-55"&gt;&lt;/use&gt;
+       &lt;use x="159.033203" xlink:href="#DejaVuSans-53"&gt;&lt;/use&gt;
+      &lt;/g&gt;
+     &lt;/g&gt;
+    &lt;/g&gt;
+    &lt;g id="ytick_9"&gt;
+     &lt;g id="line2d_16"&gt;
+      &lt;g&gt;
+       &lt;use style="stroke:#000000;stroke-width:0.8;" x="44.845313" xlink:href="#med8e228f05" y="20.53283"&gt;&lt;/use&gt;
+      &lt;/g&gt;
+     &lt;/g&gt;
+     &lt;g id="text_16"&gt;
+      &lt;!-- 1.00 --&gt;
+      &lt;g transform="translate(15.579688 24.332048)scale(0.1 -0.1)"&gt;
+       &lt;use xlink:href="#DejaVuSans-49"&gt;&lt;/use&gt;
+       &lt;use x="63.623047" xlink:href="#DejaVuSans-46"&gt;&lt;/use&gt;
+       &lt;use x="95.410156" xlink:href="#DejaVuSans-48"&gt;&lt;/use&gt;
+       &lt;use x="159.033203" xlink:href="#DejaVuSans-48"&gt;&lt;/use&gt;
+      &lt;/g&gt;
+     &lt;/g&gt;
+    &lt;/g&gt;
+   &lt;/g&gt;
+   &lt;g id="line2d_17"&gt;
+    &lt;path clip-path="url(#p70a31107cc)" d="M 60.063494 119.42 
+L 66.274997 106.774589 
+L 72.4865 94.336816 
+L 78.698003 82.310908 
+L 84.909505 70.89433 
+L 91.121008 60.274542 
+L 97.332511 50.625921 
+L 103.544014 42.106897 
+L 109.755517 34.857352 
+L 115.967019 28.996323 
+L 122.178522 24.620049 
+L 128.390025 21.800387 
+L 134.601528 20.583636 
+L 140.81303 20.989776 
+L 147.024533 23.012138 
+L 153.236036 26.617513 
+L 159.447539 31.746703 
+L 165.659042 38.315487 
+L 171.870544 46.216004 
+L 178.082047 55.318528 
+L 184.29355 65.473597 
+L 190.505053 76.514465 
+L 196.716556 88.25984 
+L 202.928058 100.516864 
+L 209.139561 113.084277 
+L 215.351064 125.755723 
+L 221.562567 138.323136 
+L 227.774069 150.58016 
+L 233.985572 162.325535 
+L 240.197075 173.366403 
+L 246.408578 183.521472 
+L 252.620081 192.623996 
+L 258.831583 200.524513 
+L 265.043086 207.093297 
+L 271.254589 212.222487 
+L 277.466092 215.827862 
+L 283.677595 217.850224 
+L 289.889097 218.256364 
+L 296.1006 217.039613 
+L 302.312103 214.219951 
+L 308.523606 209.843677 
+L 314.735108 203.982648 
+L 320.946611 196.733103 
+L 327.158114 188.214079 
+L 333.369617 178.565458 
+L 339.58112 167.94567 
+L 345.792622 156.529092 
+L 352.004125 144.503184 
+L 358.215628 132.065411 
+L 364.427131 119.42 
+" style="fill:none;stroke:#1f77b4;stroke-linecap:square;stroke-width:1.5;"&gt;&lt;/path&gt;
+   &lt;/g&gt;
+   &lt;g id="patch_3"&gt;
+    &lt;path d="M 44.845313 228.14 
+L 44.845313 10.7 
+" style="fill:none;stroke:#000000;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;"&gt;&lt;/path&gt;
+   &lt;/g&gt;
+   &lt;g id="patch_4"&gt;
+    &lt;path d="M 379.645313 228.14 
+L 379.645313 10.7 
+" style="fill:none;stroke:#000000;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;"&gt;&lt;/path&gt;
+   &lt;/g&gt;
+   &lt;g id="patch_5"&gt;
+    &lt;path d="M 44.845313 228.14 
+L 379.645313 228.14 
+" style="fill:none;stroke:#000000;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;"&gt;&lt;/path&gt;
+   &lt;/g&gt;
+   &lt;g id="patch_6"&gt;
+    &lt;path d="M 44.845313 10.7 
+L 379.645313 10.7 
+" style="fill:none;stroke:#000000;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;"&gt;&lt;/path&gt;
+   &lt;/g&gt;
+  &lt;/g&gt;
+ &lt;/g&gt;
+ &lt;defs&gt;
+  &lt;clippath id="p70a31107cc"&gt;
+   &lt;rect height="217.44" width="334.8" x="44.845313" y="10.7"&gt;&lt;/rect&gt;
+  &lt;/clippath&gt;
+ &lt;/defs&gt;
+&lt;/svg&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [ ]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt; 
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;&lt;/div&gt;</description><guid>https://geohadab.github.io/ar/posts/notebook1/</guid><pubDate>Wed, 26 Feb 2020 08:29:53 GMT</pubDate></item><item><title>first blog Post</title><link>https://geohadab.github.io/ar/posts/first-blog-post/</link><dc:creator>عبدالله الحدب</dc:creator><description>&lt;div&gt;&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;h2&gt;test&lt;/h2&gt;
+&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;test&lt;/p&gt;
+&lt;h2&gt;Introduction&lt;/h2&gt;&lt;/div&gt;</description><guid>https://geohadab.github.io/ar/posts/first-blog-post/</guid><pubDate>Wed, 26 Feb 2020 07:36:08 GMT</pubDate></item></channel></rss>
