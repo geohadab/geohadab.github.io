@@ -17,7 +17,7 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = {"en": "Abdullah Alhadab" , "ar": "عبدالله الحدب"}  # (translatable)
-BLOG_TITLE = {"en": "Geohadab", "ar": "جيوفيزياء"}  # (translatable)
+BLOG_TITLE = {"en": "The Geophysicist", "ar": "الجيوفيزيائي"}  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://geohadab.github.io/"
@@ -1336,7 +1336,7 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.c
 # (defaults to 1.)
 # DEMOTE_HEADERS = 1
 
-# If you don’t like slugified file names ([a-z0-9] and a literal dash),
+# If you don’t like slugified file nmes ([a-z0-9] and a literal dash),
 # and would prefer to use all the characters your file system allows.
 # USE WITH CARE!  This is also not guaranteed to be perfect, and may
 # sometimes crash Nikola, your web server, or eat your cat.
