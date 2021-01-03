@@ -30,9 +30,6 @@
     <div class="content container" id="content">
        {% block content %}{% endblock %}
     </div>
-
-    
-
     {{ base.late_load_js() }}
     {% if date_fanciness != 0 %}
         <!-- fancy dates -->
