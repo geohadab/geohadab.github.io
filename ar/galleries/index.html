@@ -34,7 +34,7 @@
               <h1>
                 <a href="https://geohadab.github.io/ar/">
                       <h1 id="brand"><a href="https://geohadab.github.io/ar/" title="الجيوفيزيائي" rel="home">
-        <img src="galleries/profile_pic.jpg" alt="الجيوفيزيائي" id="logo"><span id="blog-title">الجيوفيزيائي</span>
+        <img src="../../images/profile_pic.jpg" alt="الجيوفيزيائي" id="logo"><span id="blog-title">الجيوفيزيائي</span>
     </a></h1>
 
                 </a>
@@ -42,13 +42,13 @@
                 <p class="lead">مدونة شخصية</p>
 
             </div>
-                <nav id="menu" role="navigation" class="sidebar-nav"><a class="sidebar-nav-item" href="../../archive.html">Archive</a>
-        <a class="sidebar-nav-item" href="../../categories/">Tags</a>
-        <a class="sidebar-nav-item" href="../../rss.xml">RSS feed</a>
+                <nav id="menu" role="navigation" class="sidebar-nav"><a class="sidebar-nav-item" href="../archive.html">الأرشيف</a>
+        <a class="sidebar-nav-item" href="../categories/">التصنيف</a>
+        <a class="sidebar-nav-item" href="../rss.xml">RSS feed</a>
     
     
     </nav><footer id="footer"><span class="copyright">
-              Contents © 2020         <a href="mailto:Alhadab@hotmail.co.uk">عبدالله الحدب</a> 
+              Contents © 2021 <a href="mailto:Alhadab@hotmail.co.uk">عبدالله الحدب</a>
             </span>
             
             
@@ -60,19 +60,17 @@
     <nav class="breadcrumbs"><ul class="breadcrumb">
 <li>galleries</li>
 </ul></nav><h1>galleries</h1>
-    <ul>
-<li><a href="demo/"><i class="icon-folder-open"></i> Nikola Tesla</a></li>
-    </ul>
+
 <div id="gallery_container"></div>
-<noscript>
-<ul class="thumbnails"><li>
-<a href="../../galleries/profile_pic.jpg" class="thumbnail image-reference" title="Profile pic">
-            <img src="../../galleries/profile_pic.thumbnail.jpg" alt="Profile pic"></a>
-</li></ul>
-</noscript>
     </div>
-            <script src="../../assets/js/all-nocdn.js"></script><script src="../../assets/js/justified-layout.min.js"></script><script src="../../assets/js/gallery.min.js"></script><script>
-var jsonContent = [{"height": 160, "size": {"h": 160, "w": 180}, "title": "Profile pic", "url": "../../galleries/profile_pic.jpg", "url_thumb": "../../galleries/profile_pic.thumbnail.jpg", "width": 180}];
+
+    
+
+            <script src="../../assets/js/all-nocdn.js"></script><script src="../../assets/js/moment-with-locales.min.js"></script><!-- fancy dates --><script>
+        moment.locale("ar");
+        fancydates(1, "YYYY-MM-DD HH:mm");
+        </script><!-- end fancy dates --><script src="../../assets/js/justified-layout.min.js"></script><script src="../../assets/js/gallery.min.js"></script><script>
+var jsonContent = [];
 var thumbnailSize = 180;
 renderGallery(jsonContent, thumbnailSize);
 window.addEventListener('resize', function(){renderGallery(jsonContent, thumbnailSize)});

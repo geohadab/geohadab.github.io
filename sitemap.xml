@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://geohadab.github.io/</loc>
-  <lastmod>2020-02-26T08:37:00Z</lastmod>
+  <lastmod>2020-12-31T09:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://geohadab.github.io/2020/</loc>
@@ -15,72 +15,70 @@
  </url>
  <url>
   <loc>https://geohadab.github.io/ar/</loc>
-  <lastmod>2020-02-26T08:37:00Z</lastmod>
- </url>
- <url>
-  <loc>https://geohadab.github.io/ar/2020/</loc>
-  <lastmod>2020-02-26T08:37:00Z</lastmod>
+  <lastmod>2020-12-08T18:14:00Z</lastmod>
  </url>
  <url>
   <loc>https://geohadab.github.io/ar/archive.html</loc>
-  <lastmod>2020-03-01T07:54:00Z</lastmod>
+  <lastmod>2021-01-03T08:55:00Z</lastmod>
  </url>
  <url>
   <loc>https://geohadab.github.io/ar/categories/</loc>
-  <lastmod>2020-02-26T05:27:00Z</lastmod>
+  <lastmod>2020-12-07T20:53:00Z</lastmod>
  </url>
  <url>
   <loc>https://geohadab.github.io/ar/galleries/</loc>
-  <lastmod>2020-02-26T05:27:00Z</lastmod>
- </url>
- <url>
-  <loc>https://geohadab.github.io/ar/galleries/demo/</loc>
-  <lastmod>2020-02-26T05:27:00Z</lastmod>
- </url>
- <url>
-  <loc>https://geohadab.github.io/ar/posts/first-blog-post/</loc>
-  <lastmod>2020-02-26T08:37:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://geohadab.github.io/posts/first-blog-post/" />
- </url>
- <url>
-  <loc>https://geohadab.github.io/ar/posts/notebook1/</loc>
-  <lastmod>2020-02-26T08:37:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://geohadab.github.io/posts/notebook1/" />
+  <lastmod>2020-12-08T18:14:00Z</lastmod>
  </url>
  <url>
   <loc>https://geohadab.github.io/archive.html</loc>
-  <lastmod>2020-03-01T07:54:00Z</lastmod>
+  <lastmod>2021-01-03T08:55:00Z</lastmod>
  </url>
  <url>
   <loc>https://geohadab.github.io/categories/</loc>
-  <lastmod>2020-02-26T05:25:00Z</lastmod>
+  <lastmod>2020-12-07T20:53:00Z</lastmod>
  </url>
  <url>
   <loc>https://geohadab.github.io/galleries/</loc>
-  <lastmod>2020-02-26T05:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://geohadab.github.io/galleries/demo/</loc>
-  <lastmod>2020-02-26T05:21:00Z</lastmod>
+  <lastmod>2020-12-08T18:14:00Z</lastmod>
  </url>
  <url>
   <loc>https://geohadab.github.io/listings/</loc>
-  <lastmod>2020-02-26T05:21:00Z</lastmod>
+  <lastmod>2020-12-07T20:53:00Z</lastmod>
  </url>
  <url>
   <loc>https://geohadab.github.io/listings/__pycache__/</loc>
-  <lastmod>2020-02-26T05:21:00Z</lastmod>
+  <lastmod>2020-12-07T20:53:00Z</lastmod>
  </url>
  <url>
   <loc>https://geohadab.github.io/listings/hello.py.html</loc>
-  <lastmod>2020-03-01T07:54:00Z</lastmod>
+  <lastmod>2021-01-03T08:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://geohadab.github.io/pages/about-me/</loc>
+  <lastmod>2020-12-31T09:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://geohadab.github.io/pages/projects/</loc>
+  <lastmod>2020-12-31T09:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://geohadab.github.io/posts/first-blog-post/</loc>
   <lastmod>2020-02-26T08:37:00Z</lastmod>
  </url>
  <url>
-  <loc>https://geohadab.github.io/posts/notebook1/</loc>
-  <lastmod>2020-02-26T08:37:00Z</lastmod>
+  <loc>https://geohadab.github.io/posts/introduction-to-computer-science/</loc>
+  <lastmod>2020-03-31T20:24:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://geohadab.github.io/posts/rst-cheatsheet/</loc>
+  <lastmod>2020-12-30T10:17:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://geohadab.github.io/posts/test/</loc>
+  <lastmod>2020-12-02T19:00:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://geohadab.github.io/posts/test2/</loc>
+  <lastmod>2020-12-13T20:51:00Z</lastmod>
  </url>
 </urlset>

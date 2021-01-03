@@ -6,31 +6,23 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>https://geohadab.github.io/ar/galleries/demo/rss.xml</loc>
-  <lastmod>2020-03-01T07:54:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>https://geohadab.github.io/ar/galleries/rss.xml</loc>
-  <lastmod>2020-03-01T07:54:00Z</lastmod>
+  <lastmod>2021-01-03T08:55:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://geohadab.github.io/ar/rss.xml</loc>
-  <lastmod>2020-03-01T07:54:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://geohadab.github.io/galleries/demo/rss.xml</loc>
-  <lastmod>2020-03-01T07:54:00Z</lastmod>
+  <lastmod>2020-12-08T18:06:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://geohadab.github.io/galleries/rss.xml</loc>
-  <lastmod>2020-03-01T07:54:00Z</lastmod>
+  <lastmod>2021-01-03T08:55:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://geohadab.github.io/rss.xml</loc>
-  <lastmod>2020-03-01T07:54:00Z</lastmod>
+  <lastmod>2021-01-02T18:25:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://geohadab.github.io/sitemap.xml</loc>
-  <lastmod>2020-03-01T07:54:00Z</lastmod>
+  <lastmod>2021-01-03T08:55:00Z</lastmod>
  </sitemap>
 </sitemapindex>
