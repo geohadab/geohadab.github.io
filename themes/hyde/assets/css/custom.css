@@ -21,3 +21,9 @@ p.lead {
   outline: auto;
   box-shadow: 2px 2px 10px;
 } */
+
+.emoji {
+  height: 1.4em;
+  vertical-align: text-bottom;
+}
+
