@@ -3,19 +3,31 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;
 &lt;img alt="Creative Commons License BY-NC-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 03 Jan 2021 11:56:54 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>rst cheatsheet</title><link>https://geohadab.github.io/posts/rst-cheatsheet/</link><dc:creator>Abdullah Alhadab</dc:creator><description>&lt;div class="section" id="inline-markup"&gt;
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Mon, 04 Jan 2021 18:51:08 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>rst cheatsheet</title><link>https://geohadab.github.io/posts/rst-cheatsheet/</link><dc:creator>Abdullah Alhadab</dc:creator><description>&lt;div class="section" id="inline-markup"&gt;
 &lt;h2&gt;inline Markup&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;emphasis&lt;/em&gt;
 &lt;strong&gt;strong emphasis&lt;/strong&gt;
 &lt;cite&gt;interpreted text&lt;/cite&gt;
 &lt;code class="docutils literal"&gt;inline lietral&lt;/code&gt;&lt;/p&gt;
-&lt;pre class="code python"&gt;&lt;a name="rest_code_65a70272e3df4a018e52f05af93ae12c-1"&gt;&lt;/a&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;func&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
-&lt;a name="rest_code_65a70272e3df4a018e52f05af93ae12c-2"&gt;&lt;/a&gt;    &lt;span class="k"&gt;pass&lt;/span&gt;
-&lt;/pre&gt;&lt;p&gt;&lt;a href="https://geohadab.github.io/posts/rst-cheatsheet/"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><guid>https://geohadab.github.io/posts/rst-cheatsheet/</guid><pubDate>Sat, 19 Dec 2020 18:14:16 GMT</pubDate></item><item><title>test</title><link>https://geohadab.github.io/posts/test/</link><dc:creator>Abdullah Alhadab</dc:creator><description>&lt;div&gt;&lt;p&gt;Write your post here.&lt;/p&gt;
+&lt;pre class="code python"&gt;&lt;a name="rest_code_5669d14b599449ab88694aeea56a0a9f-1"&gt;&lt;/a&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;func&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+&lt;a name="rest_code_5669d14b599449ab88694aeea56a0a9f-2"&gt;&lt;/a&gt;    &lt;span class="k"&gt;pass&lt;/span&gt;
+&lt;/pre&gt;&lt;p&gt;&lt;a href="https://geohadab.github.io/posts/rst-cheatsheet/"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><guid>https://geohadab.github.io/posts/rst-cheatsheet/</guid><pubDate>Sat, 19 Dec 2020 18:14:16 GMT</pubDate></item><item><title>test</title><link>https://geohadab.github.io/posts/test/</link><dc:creator>Abdullah Alhadab</dc:creator><description>&lt;div&gt;&lt;div class="contents topic" id="overview"&gt;
+&lt;p class="topic-title"&gt;overview&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class="reference internal" href="https://geohadab.github.io/posts/test/#my-project-readme" id="id2"&gt;my project readme&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class="reference internal" href="https://geohadab.github.io/posts/test/#subtitle-here" id="id3"&gt;subtitle here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class="reference internal" href="https://geohadab.github.io/posts/test/#id1" id="id4"&gt;العنوان&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;Write your post here.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="+1" class="emoji" src="https://cdnjs.cloudflare.com/ajax/libs/emojify.js/1.1.0/images/basic/+1.png"&gt;&lt;/p&gt;
 &lt;div class="section" id="my-project-readme"&gt;
-&lt;h2&gt;my project readme&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="https://geohadab.github.io/posts/test/#id2"&gt;my project readme&lt;/a&gt;&lt;/h2&gt;
 &lt;div class="section" id="subtitle-here"&gt;
-&lt;h3&gt;subtitle here&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="https://geohadab.github.io/posts/test/#id3"&gt;subtitle here&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://geohadab.github.io/posts/test/"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><guid>https://geohadab.github.io/posts/test/</guid><pubDate>Wed, 02 Dec 2020 18:42:24 GMT</pubDate></item><item><title>Introduction to Computer Science</title><link>https://geohadab.github.io/posts/introduction-to-computer-science/</link><dc:creator>Abdullah Alhadab</dc:creator><description>&lt;div&gt;&lt;p&gt;I will talk and explain a fundemental concept in computer science &lt;/p&gt;
 &lt;p&gt;how is data represented in the computer's memory&lt;/p&gt;
 &lt;ol&gt;
