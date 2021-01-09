@@ -7,15 +7,15 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>https://geohadab.github.io/ar/galleries/rss.xml</loc>
-  <lastmod>2021-01-09T08:53:00Z</lastmod>
+  <lastmod>2021-01-09T16:03:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://geohadab.github.io/ar/rss.xml</loc>
-  <lastmod>2020-12-08T18:06:00Z</lastmod>
+  <lastmod>2021-01-09T16:03:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://geohadab.github.io/galleries/rss.xml</loc>
-  <lastmod>2021-01-09T08:53:00Z</lastmod>
+  <lastmod>2021-01-09T16:03:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://geohadab.github.io/rss.xml</loc>
@@ -23,6 +23,6 @@
  </sitemap>
  <sitemap>
   <loc>https://geohadab.github.io/sitemap.xml</loc>
-  <lastmod>2021-01-09T08:53:00Z</lastmod>
+  <lastmod>2021-01-09T16:03:00Z</lastmod>
  </sitemap>
 </sitemapindex>
