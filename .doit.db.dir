@@ -110,7 +110,7 @@
 'render_posts:cache/pages/path_handlers.html', (152064, 370)
 'render_site', (152576, 56)
 'render_galleries:output/galleries/rss.xml', (3900928, 12424)
-'sitemap:output/sitemap.xml', (3973632, 8212)
+'sitemap:output/sitemap.xml', (3973632, 8206)
 'render_posts:cache/pages/manual.html', (162304, 624)
 'render_sources:output/pages/handbook/index.rst', (163328, 241)
 'copy_assets:output/assets/js/bootstrap.min.js', (1153024, 877)

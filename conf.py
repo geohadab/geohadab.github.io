@@ -26,7 +26,7 @@ SITE_URL = "https://geohadab.github.io/"
 # BASE_URL = "https://example.com/"
 BLOG_EMAIL = "Alhadab@hotmail.co.uk"
 BLOG_DESCRIPTION = {"en": "A personal blog about Mathematics, pythong programming 🐍 and machine learning 🧠", 
-                    "ar": "مدونة شخصية"}  # (translatable)
+                    "ar": "مدونة شخصية عن الرياضيات، البرمجة بلغة البايثون 🐍 والذكاء الاصطناعي 🧠" }  # (translatable)
 
 # Nikola is multilingual!
 #
