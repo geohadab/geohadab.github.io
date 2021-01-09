@@ -25,7 +25,8 @@ SITE_URL = "https://geohadab.github.io/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://example.com/"
 BLOG_EMAIL = "Alhadab@hotmail.co.uk"
-BLOG_DESCRIPTION = {"en": "A personal blog", "ar": "مدونة شخصية"}  # (translatable)
+BLOG_DESCRIPTION = {"en": "A personal blog about Mathematics, pythong programming 🐍 and machine learning 🧠", 
+                    "ar": "مدونة شخصية"}  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -1395,3 +1396,6 @@ GLOBAL_CONTEXT_FILLER = []
 # !sass compiler
 SASS_COMPILER = 'sass'
 SASS_OPTIONS = []
+
+#! error pages 
+# CREATE_HTTP_ERROR_PAGES = [404]
